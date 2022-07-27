@@ -15,7 +15,8 @@ public class Repository {
     public Product[] findAll() {
         return goods;
     }
-    public Product findById(int id){
+
+    public Product findById(int id) {
         for (Product product : goods) {
             if (product.getById() == id) {
                 return product;
